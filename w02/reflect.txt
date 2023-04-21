@@ -1,0 +1,21 @@
+/*
+	==================================================
+	Workshop #2 (Part-1):
+	==================================================
+	Name   : Jiseok Shim
+	ID     : 122758170
+	Email  : jshim13@myseneca.ca
+	Section: IPC144 NCC
+*/
+
+1. Double types can't store 100% accurate values, so the double store values approximately.
+ And 10.12 became an 10.119999999999999 because it exceeded 8byte(the maximum storage capacity of the double).
+
+2. a) -1, 0, 1
+   b) -2, -1, 0, 1, 2
+   c) -99 ~ 99
+
+3. int wholePizzasEaten = (int)((totalSlices - (totalSlices % 21))/12);
+   int extraSlicesNeeded = estimatedSlicesConsumed - (totalSlices % estimatedSlicesConsumed);
+
+4. Integers can be precisely arithmetic and use the modulus(%) operator.

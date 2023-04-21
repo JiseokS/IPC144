@@ -1,0 +1,22 @@
+//==============================================
+// Name:           Jiseok Shim
+// Student Number: 122758170
+// Email:          jshim13@myseneca.ca
+// Section:        NCC
+// Date:           2021.07.18
+//==============================================
+// Assignment:     2
+// Milestone:      2
+//==============================================
+
+
+I felt the importance of the function most during the first two milestones. The previous assignment was just a simple program, but this assignment is larger than before. 
+Using functions, the same function was used for repeated logic to avoid coding redundancy and to make it simpler to code. It is more organized and easier to detect errors through a few files. 
+It can also be used in other programming in the future, bringing in and utilizing functions such as puts and getchar.
+
+A function is a small program unit. Examples include printf() or scanf(). Thus, a function combines code that functions specifically and allows it to be used as a single instruction.
+In this milestone, we used the yes function as a small program that required y or n answers when the program asked the user yes or no questions. We use the yes function formultiple yes or no questions 
+to reduce the coding length and make it convenient.
+
+Functions that are likely to be frequently used in contact modules are inserted into separate modules, making the code cleaner and easier to detect when errors occur.
+For example, a contact.c module calls the clearKeyboard function to initialize the buffer, but it is easier to manage that there are different modules than there are in the same module.

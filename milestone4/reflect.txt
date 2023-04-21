@@ -1,0 +1,21 @@
+//==============================================
+// Name:           Jiseok Shim
+// Student Number: 122758170
+// Email:          jshim13@myseneca.ca
+// Section:        NCC
+// Date:           2021.07.29
+//==============================================
+// Assignment:     2
+// Milestone:      4
+//==============================================
+
+
+The first thing I felt while doing two milestones was a huge amount of coding compared to the previous workshop tasks. I have completed this assignment2 using everything I have learned in the ipc144 course, but among them, I have used function the most useful.
+I also reduced my coding length by using other functions, such as strlen and strcmp.
+
+findContactIndex function getTenDigitPhone function was used a lot in this project. So I made it as simple as these two functions are used a lot, eliminating unnecessary elements. Rather than the same repetitive coding, multiple iterations were made simply 
+by using them where needed, and the names of variables were also made with meanings so that they could be immediately understood. If there is a problem with these two functions, they are made simple and clear so that the problem can be identified at a glance. 
+Using isdigit, strlen, and strcmp functions, existing functions were called rather than directly created codes to avoid decreasing code length and errors. The two functions prevent repetitive tasks and make the code easier to read as a whole.
+
+It would be nice to add the ability to import and save contact text files from outside. Inserting the ability to store contact information makes this code a more practical program. It is unnecessary in real life to initialize and store only existing
+contact information whenever I run this program. Modifying contact information to a program avoids the unnecessary task of modifying the original file again.

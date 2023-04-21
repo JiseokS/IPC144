@@ -1,0 +1,52 @@
+/* -------------------------------------------
+Name: Jiseok Shim
+Student number: 122758170
+Email: jshim13@myseneca.ca
+Section: NCC
+Date: 2021.07.08
+----------------------------------------------
+Assignment: 1
+Milestone:  4
+---------------------------------------------- */
+
+1. contacts.c
+line 32 
+scanf("%s%*c", &yesNo); -> scanf("%c%*c", &yesNo);
+yesNo is defined as char so use %c instead of %s
+
+line 60
+if (yesNo == "y" || yesNo == "Y") -> if (yesNo == 'y' || yesNo == 'Y') 
+Because y and Y are characters, not strings, use ""for string and use''for characters
+
+line 91
+if (yesNo == 'y' && yesNo == 'Y') -> if (yesNo == 'y' || yesNo == 'Y')
+The user must enter y OR Y to receive home phone number. use ||(OR) instead of &&(AND)
+
+contacts.h
+line 15
+char middleInitial[5]; ->  char middleInitial[7];
+reason: in contacts.c line 37 is scanf("%6[^\n]%*c",name->middleInitial)
+6+1(NULL) so the size of the char middleInitial[] is 7
+
+2. Access and assign values to name members within a Name structure in a contact structure
+   Access and assign values to address members within an address structure in a contact structure
+   Access and assign values to numbers members within an Numbers structure in a contact structure
+
+3.
+void ifloop(struct Struct1.Name1,char yesNo)
+{
+char yesNo;
+if (yesNo == 'y' || yesNo == 'Y') 
+    {
+        printf("Please enter the contact's middle initial(s): ");
+        scanf("%6[^\n]%*c", Struct1->Name1);
+    }
+}
+type is void because no value is returned
+
+4. Accept the data, but it is ignored. The corresponding argument does not store the accepted data, and this argument corresponds to the following format tags.
+example) printf("Do you want to enter a middle initial(s)? (y or n): ");
+            scanf("%c%*c", &yesNo);
+%c receives a value of yesNo, then %*c receives an \n followed by a scanf, which helps the next scanf receive a value normally.
+
+5. You can enter a string including spaces with "%[^\n]". %s does not accept strings containing spaces such as "Wilma Dee".

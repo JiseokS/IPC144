@@ -1,0 +1,30 @@
+/*
+* Name: Jiseok Shim
+* Student Number: 122758170
+* Seneca Email Address: jshim13@myseneca.ca
+* Section Information Code: IPC144 NCC
+*/
+
+
+1. I used switch case.
+
+ Example)
+        printf("Set the year and month for the well-being log (YYYY MM): ");
+		scanf("%d %d", &year, &month);
+ 
+        switch (month) {
+		case 1:
+			printf("JAN");
+			break;
+		case 2:
+			printf("FEB");
+			break;
+		}
+
+
+2. Interation constructs are while, do while, for
+   reason) There is no fixed number of iterations, so i use do while loop. In some cases, using "while" does not execute the output, so i used "do while" to execute the command first and finally examined the conditions.
+
+
+3. Firstly, run debugging. If it doesn't execute and a warning pops up, it's syntactic errors. Look at the solution in the error list below and find out what is wrong(kind of C language grammar mistake)
+   The program execute well, but if the result is not what i expect, it is a semantic error. For example, i failed to produce the results of Morning total rating(that is the last part), and i checked all logic about Morning total rating again.

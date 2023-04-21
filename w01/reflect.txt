@@ -1,0 +1,14 @@
+/*
+* Name: Jiseok Shim
+* Student Number: 122758170
+* Seneca Email Address: jshim13@myseneca.ca
+* Section Information Code: IPC144 NCC
+*/
+
+1. I learned C language programming using Visual Studio and how to send C sourse to matrix using WinSCP(SFTP) and how to operate C sourse with PUTTY(SSH)
+
+2. SSH(Secured Socket Shell) is a protocol that enables secure remote access as one of the network security tools.
+Using PUTTY(SSH) to interact Remote Linux Server(matrix) and operate this week Workshop and then submitted it to the professor.
+
+3. SFTP(Secured File Transfer Protocol) is a network protocol that provides file access, transfer, and management over secured data streams 
+and I used WinSCP(SFTP) to copy files to a remote Linux server(Seneca college server) in this Workshop.

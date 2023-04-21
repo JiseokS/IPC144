@@ -1,0 +1,14 @@
+/*
+* Name: Jiseok Shim
+* Student Number: 122758170
+* Seneca Email Address: jshim13@myseneca.ca
+* Section Information Code: IPC144 NCC
+*/
+
+1. I compared the Value with the entrance valuse using if and for loop
+
+2. If it starts with a 1(nonzero), the array does not fit because array starts with zero.
+   When saving Priority, Financed, and Cost values in an their arrays, the for loop must be start with zero to save from the beginning of the arrays.
+
+3. Array is simply a house. And the componenets that make up the array are described as rooms. The size of the array is the number of rooms in the house.
+
